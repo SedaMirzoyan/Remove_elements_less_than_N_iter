@@ -19,7 +19,7 @@ void removeFromList(std::list<int> l)
 	
 	l.remove_if(lessThanN); //case #1//  -5, 23, 34, 45, 56, 67, 78, 23, 89, -8, 94, 101, 23
     
-	remove_if(l.begin(), l.end(), lessThanN); //case #2// -5, 23, 34, 45, 56, 67, 78, 23, 89, -8, 94, 101, 23 , -8, 94, 101, 23, 3
+	remove_if(l.begin(), l.end(), lessThanN); //case #2// 23, 34, 45, 56, 67, 78, 23, 89, 94, 101, 23 , 89, 3, -8, 94, 101, 23, 3
 
 
     for ( it = l.begin(); it != l.end(); ++it)
